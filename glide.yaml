@@ -12,3 +12,8 @@ import:
   version: ^1.9.1
 - package: github.com/rs/xid
   version: ^1.1.0
+- package: golang.org/x/sys
+  repo: https://github.com/golang/sys
+  version: 7c87d13f8e835d2fb3a70a2912c811ed0c1d241b
+  subpackages:
+  - unix

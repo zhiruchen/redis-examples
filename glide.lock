@@ -1,5 +1,5 @@
-hash: d8656e115b93b3f7858cc5a6a076f7a39a9d45500d28251764c08a41cb076bb7
-updated: 2018-05-18T10:26:23.831727837Z
+hash: fdf4ea84edd2346c0646825fc9100a3b99828524c00e03e92a553390c54f68ae
+updated: 2018-05-18T18:47:30.852929+08:00
 imports:
 - name: github.com/fatih/structs
   version: a720dfa8df582c51dee1b36feabb906bde1588bd
@@ -10,6 +10,12 @@ imports:
   subpackages:
   - binding
   - render
+- name: github.com/go-playground/locales
+  version: f63010822830b6fe52288ee52d5a1151088ce039
+  subpackages:
+  - currency
+- name: github.com/go-playground/universal-translator
+  version: 71201497bace774495daed26a3874fd339e0b538
 - name: github.com/go-redis/redis
   version: 877867d2845fbaf86798befe410b6ceb6f5c29a3
   subpackages:
@@ -23,7 +29,7 @@ imports:
 - name: github.com/go-sql-driver/mysql
   version: a0583e0143b1624142adab07e0e97fe106d99561
 - name: github.com/golang/protobuf
-  version: 668a607657a5d387d6333648a2d9c749761fdc69
+  version: 1e59b77b52bf8e4b449a57e6f79f21226d571845
   subpackages:
   - proto
 - name: github.com/jinzhu/gorm
@@ -40,10 +46,11 @@ imports:
   - codec
 - name: golang.org/x/sys
   version: 7c87d13f8e835d2fb3a70a2912c811ed0c1d241b
+  repo: https://github.com/golang/sys
   subpackages:
   - unix
 - name: gopkg.in/go-playground/validator.v8
-  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+  version: f28cb45dc0f0f406ba2015cdb59a5203ad220bc2
 - name: gopkg.in/yaml.v2
   version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
 testImports: []
