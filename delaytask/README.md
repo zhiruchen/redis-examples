@@ -16,4 +16,4 @@ taskconsumer> go run main.go
 
 ## consumer
 
-consumer 将没隔一段时间从同一个sorted set中读取(zrange delayTaskListKey 0 0 withscores)第一个任务，然后判断score(执行时间) 与当前时间的是否相等，相等则执行任务，然后从set中删除这个member。
+consumer 将每隔一段时间从同一个sorted set中读取(zrange delayTaskListKey 0 0 withscores)第一个任务，然后判断score(执行时间) 与当前时间的是否相等，相等则执行任务，然后从set中删除这个member。

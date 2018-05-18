@@ -12,7 +12,7 @@ import (
 	"github.com/zhiruchen/redis-examples/delaytask"
 )
 
-// Consumer is the consumer iterface
+// Consumer is the consumer interface
 type Consumer interface {
 	// Consume handle task from redis sorted set
 	Consume(*redis.Client)
